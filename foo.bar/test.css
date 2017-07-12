@@ -1,0 +1,23 @@
+div.expand{
+    min-height: 25px;
+    min-width: 25px;
+    transition: 1s all ease;
+    position: fixed;
+    word-wrap: break-word;
+    box-shadow: 0 0 5px black;
+    padding: 5px;
+}
+div.expand.open{
+    width: 200px;
+    height: 200px;
+    border-radius:3px;
+}
+div.expand.collapsed{
+    width:25px;
+    height: 25px;
+    border-radius:500px;
+}
+
+div.expand.collapsed .content{
+    display:none;
+}

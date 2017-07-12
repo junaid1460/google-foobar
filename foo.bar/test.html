@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="test.css">
+    </head>
+    <body>
+        <div id="expander" class="expand open">
+            <div class="content"> 
+                hellownvkdsvhjdv jhdsgvjdsdsvs
+                bsf
+                bsfg
+                bodyb
+
+            </div>
+        </div>
+        <script>
+            e = document.getElementById('expander');
+            flag = true
+            e.addEventListener('click',(data,x) => {
+                console.log(e)
+               
+                if(e.classList.contains('collapsed')){
+                    e.classList.remove('collapsed')
+                }
+                else
+                    e.classList.add('collapsed')
+            })
+        </script>
+    </body>
+</html>
